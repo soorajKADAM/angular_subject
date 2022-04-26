@@ -1,0 +1,13 @@
+<form>
+    <div class="form-row align-items-center">
+      <div class="col-auto">
+        <label class="sr-only" >Enter User Name</label>
+        <input type="text" class="form-control mb-2"  placeholder="Jane Doe" #uname>
+    username: {{userName}} 
+    </div>
+
+      <div class="col-auto">
+        <button (click)="updateusername(uname)" class="btn btn-primary mb-2">Update</button>
+      </div>
+    </div>
+  </form>
